@@ -27,4 +27,4 @@ router.use('/login', loginRouter.routes());
 
 app.use(router.routes()).use(router.allowedMethods());
 
-app.listen(3001, () => console.log('start'));
+app.listen(3000, () => console.log('start'));
